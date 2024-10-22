@@ -21,6 +21,8 @@ body {
     /* border: 1px solid red; */
 }
 
+
+
 /* _________shared style_________ */
 .display-flex {
     display: flex;
@@ -30,7 +32,9 @@ body {
     text-align: center;
 }
 
-/* _________Mavigation Style_________ */
+
+
+/* _________Start Navigation Style_________ */
 
 .navigation {
     max-width: 80%;
@@ -81,3 +85,133 @@ body {
     display: none;
     font-size: 42px;
 }
+/* _________Navigation Style EnD_________ */
+
+
+/* ____________Banner-sec-Start_____________ */
+
+.banner-container {
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    /* border: 1px solid green; */
+}
+
+.banner-text {
+    width: 65%;
+}
+
+.banner-image {
+    /* border: 2px solid red; */
+    width: 33%;
+    position: relative;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 8rem;
+    font-weight: 700;
+    padding-top: 1em;
+    line-height: 130px;
+}
+
+#shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 12rem;
+    line-height: 90px;
+    font-weight: 400;
+}
+
+.banner-description {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+    width: 600px;
+    margin: 40px 0;
+}
+
+.button-primary {
+    display: flex;
+    gap: 20px;
+}
+
+.banner-btn {
+    width: 250px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 1.30rem 2rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.940);
+}
+
+#banner-btn {
+    background: rgba(230, 83, 60, 1);
+    border: none;
+}
+
+/* ______video tutorial______ */
+#video-badge {
+    width: 230px;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 80%;
+    left: -25%;
+    background: rgba(63, 50, 50, 0.281);
+    backdrop-filter: blur(6px);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.div-dot {
+    background: rgba(230, 83, 60, 1);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+}
+
+
+
+#workout-badge {
+    width: 230px;
+    height: 120px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    background: rgba(63, 50, 50, 0.281);
+    backdrop-filter: blur(6px);
+    border-radius: 8px;
+}
+
+.video-tutorial {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.workout-video {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+#video-tutorial,
+#workout-video {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 1rem;
+    font-weight: 300;
+}
+/* ____________Banner-sec-EnD_____________ */
