@@ -23,7 +23,7 @@ body {
 
 
 
-/* _________shared style_________ */
+/* shared-style*/
 .display-flex {
     display: flex;
 }
@@ -34,7 +34,7 @@ body {
 
 
 
-/* _________Start Navigation Style_________ */
+/* Start-Navigation-Style*/
 
 .navigation {
     max-width: 80%;
@@ -85,16 +85,16 @@ body {
     display: none;
     font-size: 42px;
 }
-/* _________Navigation Style EnD_________ */
+/* Navigation-Style-EnD */
 
 
-/* ____________Banner-sec-Start_____________ */
+/* Banner-sec-Start */
 
 .banner-container {
     max-width: 80%;
     margin: 0 auto;
     justify-content: space-evenly;
-    /* border: 1px solid green; */
+    /* border: 1px solid red; */
 }
 
 .banner-text {
@@ -157,7 +157,7 @@ body {
     border: none;
 }
 
-/* ______video tutorial______ */
+/* Video-Tutorial */
 #video-badge {
     width: 230px;
     height: 120px;
@@ -214,4 +214,58 @@ body {
     font-size: 1rem;
     font-weight: 300;
 }
-/* ____________Banner-sec-EnD_____________ */
+/* Banner-sec-EnD*/
+
+/* Design-Habit-Container */
+
+.habit-content {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.habit-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.habit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/*habit image container*/
+.habit-image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.habit-image {
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.habit-image img {
+    width: 100%;
+    border-radius: 200px;
+    padding: 1rem;
+}
+
+.habit-image h5 {
+    font-size: 1.45rem;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.habit-image p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Habit-Container-EnD */
