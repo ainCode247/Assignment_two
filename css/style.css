@@ -447,5 +447,200 @@ option {
     margin-top: 2rem;
 
 }
+/* BMI-section-End */
 
-/* BMI-section-start */
+/* Start-Meet-Our-Team */
+.teams-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.teams-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background: rgba(29, 27, 27, 0.918);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.team-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+}
+
+.team-image {
+    position: relative;
+}
+
+.clint-name {
+    position: absolute;
+    top: 82%;
+    left: 15px;
+}
+
+.clint-name h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+}
+
+.clint-name p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+/* Meet-Our-Team-End */
+
+/* Response for medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navigation {
+        max-width: 95%;
+        padding: 0;
+    }
+
+    .banner-container {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 6rem;
+    }
+
+    #shape {
+        font-size: 12rem;
+    }
+
+    .banner-image {
+        /* border: 2px solid red; */
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    #video-badge {
+        width: 230px;
+        height: 120px;
+        top: 60%;
+        left: 0%;
+    }
+
+    .video-tutorial {
+        font-size: 2.9rem;
+    }
+
+    #workout-badge {
+        top: 5%;
+        left: 53%;
+        width: 230px;
+        height: 130px;
+    }
+
+    .workout-video {
+        font-size: 4rem;
+    }
+
+    #video-tutorial,
+    #workout-video {
+        font-size: 1rem;
+    }
+
+    /* habit-container */
+    .container {
+        max-width: 95%;
+    }
+
+    /* .habit-content {
+        width: 800px;       ---------------
+    } */
+
+    .habit-description {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* habit-image-container */
+    .habit-image-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+
+    .habit-image img {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .habit-image p {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    /* Mile-container */
+    .mile-container {
+        padding: 35px 35px 35px 55px;
+        gap: 2rem;
+    }
+
+    .mile-title {
+        font-size: 2.88rem;
+    }
+
+    .mile-description {
+        width: 290px;
+    }
+
+    .mile-text {
+        width: 100%;
+    }
+
+    .mile-image {
+        width: 100%;
+    }
+
+    /* bmi-section */
+    .bmi-content {
+        width: 400px;
+        margin-left: 45px;
+    }
+
+    .calculator-container {
+        flex-direction: column;
+    }
+
+    .calc-description {
+        width: 90%;
+    }
+
+    .bmi-table {
+        width: 100%;
+    }
+
+    .bmi-calculator {
+        width: 100%;
+    }
+
+    /* teams-container */
+    .teams-container {
+        margin-top: 30px;
+    }
+
+    .teams-image-container {
+        gap: 1.8rem;
+        padding: 1.8rem;
+        border-radius: 20px;
+    }
+
+    .team-image img {
+        width: 100%;
+        height: 360px;
+        border-radius: 20px;
+    }
+
+}
+
